@@ -11,15 +11,15 @@ In cloud environments, it is common for developers to leave EBS volumes unattach
 * **Elastic IP (EIP) Tracking:** Reports unassociated EIPs to prevent idle-address charges.
 * **Cost Efficiency:** Provides a consolidated view of potential savings in the terminal.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python 3.x
 * **AWS SDK:** Boto3
 * **Authentication:** AWS CLI / IAM Roles
 
-## 📖 How It Works
+## How It Works
 The script utilizes the `boto3` library to query the AWS EC2 and EBS APIs. It iterates through the specified region, filters for resources with a status of 'available' or 'unassociated', and prints a detailed report of the Resource ID and its current state.
 
-## 🚦 Prerequisites
+## Prerequisites
 * **AWS CLI** configured with `aws configure`.
 * **IAM Permissions:** Access to `ec2:DescribeVolumes`, `ec2:DescribeSnapshots`, and `ec2:DescribeAddresses`.
 
