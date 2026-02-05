@@ -1,0 +1,34 @@
+{
+    "status": "success",
+    "data": {
+        "city": "Pembroke Pines",
+        "state": "Florida",
+        "country": "USA",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -80.3401706,
+                26.0147158
+            ]
+        },
+        "current": {
+            "pollution": {
+                "ts": "2025-10-28T21:00:00.000Z",
+                "aqius": 21,
+                "mainus": "p2",
+                "aqicn": 5,
+                "maincn": "p2"
+            },
+            "weather": {
+                "ts": "2025-10-28T22:00:00.000Z",
+                "ic": "04d",
+                "hu": 76,
+                "pr": 1008,
+                "tp": 27,
+                "wd": 40,
+                "ws": 5.14,
+                "heatIndex": 29
+            }
+        }
+    }
+}
